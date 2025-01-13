@@ -1,0 +1,239 @@
+body {
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@font-face {
+  font-family: stylish;
+  src: url(Fonts/Arenski\ Regular.ttf);
+}
+.background {
+  width: 100%;
+  position: absolute;
+}
+.logo {
+  padding-left: 24px;
+  padding-top: 18px;
+  position: relative;
+}
+.nav-links {
+  color: white;
+  float: right;
+  border-bottom: solid rgb(199, 198, 198) 1px;
+  border-top: solid rgb(199, 198, 198) 1px;
+  margin-top: 25px;
+}
+.nav-links > ul > li {
+  display: inline;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.nav-links > ul > li:hover {
+  color: rgb(199, 198, 198);
+}
+.context {
+  color: white;
+  padding-top: 70px;
+  font-family: none;
+  padding-bottom: 70px;
+}
+.context > p {
+  margin-bottom: -70px;
+  font-size: 35px;
+}
+.context > h1 {
+  font-size: 90px;
+  font-weight: normal;
+}
+.about-us {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.about-us > .img > img {
+  float: left;
+  height: 260px;
+  width: 500px;
+  margin-bottom: 60px;
+}
+.about-us > .content {
+  float: right;
+  text-align: center;
+  word-spacing: 5px;
+  padding-right: 50px;
+  line-height: 20px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.about-us > .content > h1 {
+  color: blue;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+.stylish {
+  font-family: stylish;
+}
+button {
+  color: blue;
+  background-color: white;
+  border: blue solid 1px;
+  padding: 15px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: blue;
+  color: white;
+}
+.box1,
+.box2,
+.box3 {
+  border: 1px rgb(206, 204, 204) solid;
+  color: blue;
+  text-align: center;
+}
+.box1 > img,
+.box2 > img,
+.box3 > img {
+  width: 380px;
+  height: 160px;
+}
+.box1 {
+  float: left;
+}
+.box2,
+.box3 {
+  float: right;
+  margin-right: 20px;
+}
+.banner > img {
+  width: 96%;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.register {
+  line-height: 50px;
+}
+.define {
+  color: black;
+  line-height: 0px;
+}
+.exploring {
+  border: 1px solid rgb(199, 198, 198);
+}
+.exploring > h2 {
+  color: white;
+  background-image: url(Assets/Exploring.jpg);
+  width: 96%;
+  height: 200px;
+  text-align: center;
+  align-content: center;
+  font-size: 30px;
+}
+.exploring > img {
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+.banner1 {
+  background-image: url(Assets/the-city-school-alumni-banner.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.banner1 > h2 {
+  font-family: stylish;
+  font-size: 40px;
+  text-align: right;
+  height: 552px;
+  margin-top: 30px;
+  color: white;
+  padding-top: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.banner1 > h2 > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 250px;
+  font-size: 25px;
+  color: black;
+  font-weight: normal;
+  margin-right: 50px;
+}
+.banner1 > h2 > p > span {
+  color: blue;
+}
+.news {
+  text-align: center;
+  width: 300px;
+  justify-self: center;
+}
+.news > h1 {
+  color: blue;
+  padding-bottom: 20px;
+}
+.award {
+  border: solid 1px rgb(199, 198, 198);
+  text-align: left;
+}
+.award > p,
+b {
+  padding-left: 20px;
+}
+.award > img {
+  width: 300px;
+}
+.active {
+  font-size: 12px;
+  color: gray;
+}
+.award-discription {
+  font-size: 20px;
+  cursor: pointer;
+}
+.more-news {
+  font-size: 15px;
+  color: blue;
+  cursor: pointer;
+}
+.views {
+  width: 300px;
+}
+.presence {
+  background-image: url(Assets/our-presence.png);
+  height: 476px;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  line-height: 5px;
+  margin-top: 30px;
+  border: blue 1px solid;
+}
+.network > img {
+  margin-left: 40px;
+}
+.network > h1 {
+  color: blue;
+  text-align: center;
+  padding-top: 20px;
+}
+footer {
+  background-color: blue;
+  padding: 30px;
+  height: 200px;
+}
+footer > .logo1 {
+  float: left;
+}
+.detail {
+  color: white;
+  float: right;
+  margin-left: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contact {
+  color: white;
+  background-color: blue;
+  border: white solid 1px;
+  padding: 10px;
+  font-weight: bold;
+}
+.contact:hover {
+  background-color: white;
+  color: blue;
+}
